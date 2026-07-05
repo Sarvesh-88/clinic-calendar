@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project is a digital React Calendar Widget designed to transition a dental office from manual paper systems and Excel sheets to a robust digital solution. The widget allows floor staff to easily access, manage, and track schedules, preventing data loss and operational slowdowns. 
-* **Live Link-
+* Live Link-https://clinic-calendar-theta.vercel.app/
 
 ## Tech Stack
 * **Framework:** React
