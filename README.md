@@ -43,16 +43,3 @@ This project is a digital React Calendar Widget designed to transition a dental 
 * Standardized spacing and padding utilizing 16px and 32px incremental steps.
 * No unauthorized or rogue hex colors introduced.
 
----
-
-## Getting Started
-
-### Prerequisites
-Make sure you have Node.js and npm (or yarn/pnpm) installed on your machine.
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <your-repository-url>
-cd react-calendar-widget
