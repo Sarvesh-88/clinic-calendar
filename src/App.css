@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #eef5ff, #f8fbff);
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* Main Container */
+.container {
+  width: 100%;
+  max-width: 850px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 14px;
+  border: 1px solid #dbeafe;
+  box-shadow: 0 12px 35px rgba(59, 130, 246, 0.12);
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 18px;
+  border-bottom: 2px solid #dbeafe;
+}
+
+.header h1 {
+  color: #1d4ed8;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Cards */
+.card {
+  background: #f8fbff;
+  border: 1px solid #dbeafe;
+  border-radius: 10px;
+  padding: 22px;
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.12);
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 16px;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #ffffff;
+  transition: 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.2);
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 13px;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #1d4ed8, #1e40af);
+  transform: translateY(-1px);
+}
+
+/* Appointment List */
+li {
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #ffffff;
+  border-left: 4px solid #2563eb;
+  border-radius: 6px;
+}
+
+/* Empty & Loading */
+.loading {
+  color: #2563eb;
+  text-align: center;
+}
+
+.empty {
+  color: #64748b;
+  text-align: center;
+}
+
+/* Errors */
+.error {
+  border-color: #dc2626;
+}
+
+.error-text {
+  color: #dc2626;
+  font-size: 12px;
+}
